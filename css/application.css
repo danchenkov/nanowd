@@ -1,0 +1,11 @@
+/* line 4, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 11, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_box-sizing.scss */
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+/*# sourceMappingURL=application.css.map */
