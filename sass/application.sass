@@ -2,3 +2,182 @@
 @import "grid-settings"
 @import "neat/neat"
 
+
+// GRID
+header, #content, footer
+	+outer-container
+	+span-columns(24)
+	+omega
+	+media($tablet)
+		+span-columns(12)
+		+omega
+	+media($mobile)
+		+span-columns(8)
+		+omega
+	aside
+		+shift(3 of 24)
+		+span-columns(3 of 24)
+		+media($tablet)
+			+shift(0)
+			+span-columns(12)
+			+omega
+		+media($mobile)
+			+shift(0)
+			+span-columns(8)
+			+omega
+	.wrapper
+		+span-columns(18)
+		+omega
+		+media($tablet)
+			+span-columns(12)
+		+media($mobile)
+			+span-columns(8)
+		section, h2
+			+span-columns(6 of 18)
+			+media($tablet)
+				+span-columns(10 of 12)
+				+shift(1 of 12)
+			+media($mobile)
+				+span-columns(8 of 8)
+				+shift(0)
+			figure
+				+fill-parent
+				max-height: 190px
+				overflow: hidden
+				+media($tablet)
+					max-height: 400px
+			img
+				+fill-parent
+
+
+// RESET
+body
+	min-width: 320px
+figure
+	margin: 0
+
+
+// TYPOGRAPHY
+body
+	font-size: 1em
+	+media($tablet)
+		font-size: 1.15em
+	+media($mobile)
+		font-size: 0.85em
+p, h1, h2, h3, h4
+	margin: 0
+p
+	line-height: 1.25em
+	margin: 0
+	+media($mobile)
+		font-size: 1.15em
+h1, h2, h3, h4
+	font-family: 'Gotham', sans-serif
+	margin: 0
+h1
+	color: #777
+	font-weight: 300
+	font-size: 3em
+	+media($tablet)
+		font-size: 2.5em
+	+media($mobile)
+		font-size: 2.25em
+h2
+	font-weight: 400
+	+media($tablet)
+		font-size: 2em
+h3
+	font-weight: 700
+	font-size: 1em
+	+media($tablet)
+		font-size: 1.15em
+	+media($mobile)
+		font-size: 1em
+h4
+	color: hsla(0, 0%, 0%, 1)
+	font-size: 0.75em
+	line-height: 1em
+	+media($tablet)
+		font-size: 1.25em
+	+media($mobile)
+		font-size: 1em
+
+
+// COLORS
+.tanned
+	color: #747704
+	padding-left: 0.75em
+.square
+	width: 80px
+	height: 80px
+	margin: 10px
+	&.uno
+		background-color: hsla(34, 94%, 54%, 1)
+	&.due
+		background-color: hsla(0, 1%, 74%, 1)
+	&.tre
+		background-color: hsla(62, 93%, 24%, 1)
+	+media($tablet)
+	+media($mobile)
+
+
+// SECTIONS
+header
+	min-height: 108px
+	text-align: right
+	+media($tablet)
+	+media($mobile)
+		min-height: 80px
+	aside
+		+media($tablet)
+			display: none
+	.wrapper
+		+media($tablet)
+			margin-top: 0.5em
+			padding-right: 1em
+		border-bottom: 2px solid hsla(0, 0%, 73%, 1)
+	h1, h2, h3
+		text-transform: uppercase
+		margin: 0
+		vertical-align: middle
+
+.logo
+	float: left
+	width: 88px
+	padding: 10px 4px
+	img
+		max-height: 100px
+	+media($tablet)
+		width: 25%
+		padding: 0.5% 2% 1.5%
+
+#content
+	.wrapper
+		height: 300px
+		min-height: 300px
+		overflow: hidden
+		margin: 2em 0
+		background-image: url(/images/content-01.jpg)
+		background-size: cover
+		background-repeat: no-repeat
+		+media($tablet)
+		+media($mobile)
+
+footer
+	h1, h2
+		color: hsla(34, 94%, 54%, 1)
+		+media($tablet)
+			padding-left: 0.25em
+			padding-right: 0.25em
+	h3, h4
+		color: hsla(0, 0%, 40%, 1)
+		text-align: center
+		+media($tablet)
+			padding-left: 0.25em
+			padding-right: 0.25em
+	h3
+		margin-top: 0.25em
+		text-transform: uppercase
+		font-size: 1.75em
+	h4
+		margin-bottom: 0.75em
