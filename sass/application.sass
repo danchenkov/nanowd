@@ -25,29 +25,29 @@ header, #content, footer
 			+shift(0)
 			+span-columns(8)
 			+omega
-	.wrapper
-		+span-columns(18)
-		+omega
+.wrapper
+	+span-columns(18)
+	+omega
+	+media($tablet)
+		+span-columns(12)
+	+media($mobile)
+		+span-columns(8)
+	section, h2
+		+span-columns(6 of 18)
 		+media($tablet)
-			+span-columns(12)
+			+span-columns(10 of 12)
+			+shift(1 of 12)
 		+media($mobile)
-			+span-columns(8)
-		section, h2
-			+span-columns(6 of 18)
-			+media($tablet)
-				+span-columns(10 of 12)
-				+shift(1 of 12)
-			+media($mobile)
-				+span-columns(8 of 8)
-				+shift(0)
-			figure
-				+fill-parent
-				max-height: 190px
-				overflow: hidden
-				+media($tablet)
-					max-height: 400px
-			img
-				+fill-parent
+			+span-columns(8 of 8)
+			+shift(0)
+	figure
+		+fill-parent
+		max-height: 190px
+		overflow: hidden
+		+media($tablet)
+			max-height: 400px
+	img
+		+fill-parent
 
 
 // RESET

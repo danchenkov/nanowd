@@ -82,79 +82,80 @@ header, #content, footer {
         /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
         header aside:last-child, #content aside:last-child, footer aside:last-child {
           margin-right: 0; } }
-  /* line 28, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
-  header .wrapper, #content .wrapper, footer .wrapper {
+
+/* line 28, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
+.wrapper {
+  float: left;
+  display: block;
+  margin-right: 1.05263%;
+  width: 74.73684%;
+  margin-right: 0; }
+  /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
+  .wrapper:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    /* line 28, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
+    .wrapper {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 100%; }
+      /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
+      .wrapper:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 480px) {
+    /* line 28, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
+    .wrapper {
+      float: left;
+      display: block;
+      margin-right: 3.22581%;
+      width: 100%; }
+      /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
+      .wrapper:last-child {
+        margin-right: 0; } }
+  /* line 35, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
+  .wrapper section, .wrapper h2 {
     float: left;
     display: block;
-    margin-right: 1.05263%;
-    width: 74.73684%;
-    margin-right: 0; }
+    margin-right: 1.40845%;
+    width: 32.39437%; }
     /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
-    header .wrapper:last-child, #content .wrapper:last-child, footer .wrapper:last-child {
+    .wrapper section:last-child, .wrapper h2:last-child {
       margin-right: 0; }
     @media screen and (max-width: 768px) {
-      /* line 28, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
-      header .wrapper, #content .wrapper, footer .wrapper {
+      /* line 35, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
+      .wrapper section, .wrapper h2 {
         float: left;
         display: block;
         margin-right: 2.12766%;
-        width: 100%; }
+        width: 82.97872%;
+        margin-left: 8.51064%; }
         /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
-        header .wrapper:last-child, #content .wrapper:last-child, footer .wrapper:last-child {
+        .wrapper section:last-child, .wrapper h2:last-child {
           margin-right: 0; } }
     @media screen and (max-width: 480px) {
-      /* line 28, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
-      header .wrapper, #content .wrapper, footer .wrapper {
+      /* line 35, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
+      .wrapper section, .wrapper h2 {
         float: left;
         display: block;
         margin-right: 3.22581%;
-        width: 100%; }
-        /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
-        header .wrapper:last-child, #content .wrapper:last-child, footer .wrapper:last-child {
-          margin-right: 0; } }
-    /* line 35, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
-    header .wrapper section, header .wrapper h2, #content .wrapper section, #content .wrapper h2, footer .wrapper section, footer .wrapper h2 {
-      float: left;
-      display: block;
-      margin-right: 1.40845%;
-      width: 32.39437%; }
-      /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
-      header .wrapper section:last-child, header .wrapper h2:last-child, #content .wrapper section:last-child, #content .wrapper h2:last-child, footer .wrapper section:last-child, footer .wrapper h2:last-child {
-        margin-right: 0; }
-      @media screen and (max-width: 768px) {
-        /* line 35, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
-        header .wrapper section, header .wrapper h2, #content .wrapper section, #content .wrapper h2, footer .wrapper section, footer .wrapper h2 {
-          float: left;
-          display: block;
-          margin-right: 2.12766%;
-          width: 82.97872%;
-          margin-left: 8.51064%; }
-          /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
-          header .wrapper section:last-child, header .wrapper h2:last-child, #content .wrapper section:last-child, #content .wrapper h2:last-child, footer .wrapper section:last-child, footer .wrapper h2:last-child {
-            margin-right: 0; } }
-      @media screen and (max-width: 480px) {
-        /* line 35, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
-        header .wrapper section, header .wrapper h2, #content .wrapper section, #content .wrapper h2, footer .wrapper section, footer .wrapper h2 {
-          float: left;
-          display: block;
-          margin-right: 3.22581%;
-          width: 100%;
-          margin-left: 0%; }
-          /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
-          header .wrapper section:last-child, header .wrapper h2:last-child, #content .wrapper section:last-child, #content .wrapper h2:last-child, footer .wrapper section:last-child, footer .wrapper h2:last-child {
-            margin-right: 0; } }
-      /* line 43, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
-      header .wrapper section figure, header .wrapper h2 figure, #content .wrapper section figure, #content .wrapper h2 figure, footer .wrapper section figure, footer .wrapper h2 figure {
         width: 100%;
-        max-height: 190px;
-        overflow: hidden; }
-        @media screen and (max-width: 768px) {
-          /* line 43, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
-          header .wrapper section figure, header .wrapper h2 figure, #content .wrapper section figure, #content .wrapper h2 figure, footer .wrapper section figure, footer .wrapper h2 figure {
-            max-height: 400px; } }
-      /* line 49, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
-      header .wrapper section img, header .wrapper h2 img, #content .wrapper section img, #content .wrapper h2 img, footer .wrapper section img, footer .wrapper h2 img {
-        width: 100%; }
+        margin-left: 0%; }
+        /* line 89, /Users/adanchenkov/Sites/nanowd/sass/neat/grid/_span-columns.scss */
+        .wrapper section:last-child, .wrapper h2:last-child {
+          margin-right: 0; } }
+  /* line 43, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
+  .wrapper figure {
+    width: 100%;
+    max-height: 190px;
+    overflow: hidden; }
+    @media screen and (max-width: 768px) {
+      /* line 43, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
+      .wrapper figure {
+        max-height: 400px; } }
+  /* line 49, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
+  .wrapper img {
+    width: 100%; }
 
 /* line 54, /Users/adanchenkov/Sites/nanowd/sass/application.sass */
 body {
