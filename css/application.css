@@ -18,7 +18,7 @@ header, #content, footer {
   margin-right: 1.05263%;
   width: 100%;
   margin-right: 0; }
-  /* line 20, /Users/adanchenkov/Sites/nanowd/sass/bourbon/addons/_clearfix.scss */
+  /* line 20, /Users/adanchenkov/Sites/nanowd/sass/bourbon/bourbon/addons/_clearfix.scss */
   header::after, #content::after, footer::after {
     clear: both;
     content: "";
