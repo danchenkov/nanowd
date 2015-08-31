@@ -1,22 +1,22 @@
 @font-face {
 	font-family: 'Gotham';
-  src: url('/fonts/GothamExtraLight.otf') format('opentype');
-  font-weight: 300;
+	src: url('/fonts/GothamExtraLight.otf') format('opentype');
+	font-weight: 300;
 }
 
 @font-face {
 	font-family: 'Gotham';
-  src: url('/fonts/GothamHTFBook.ttf') format('truetype');
-  font-weight: 500,700;
+	src: url('/fonts/GothamHTFBook.ttf') format('truetype');
+	font-weight: 500,700;
 }
 
 @font-face {
 	font-family: 'Gotham';
-  src: url('/fonts/GothamProLight.otf') format('opentype');
-  font-weight: 400;
+	src: url('/fonts/GothamProLight.otf') format('opentype');
+	font-weight: 400;
 }
 
 body {
-  font-family: 'Gotham',sans-serif;
-  margin: 0 auto;
+	font-family: 'Gotham',sans-serif;
+	margin: 0 auto;
 }
